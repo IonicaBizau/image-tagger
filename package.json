@@ -11,7 +11,9 @@
   "license": "MIT",
   "blah": {
     "description": [
-      { "h2": "How It Works" },
+      {
+        "h2": "How It Works"
+      },
       {
         "ol": [
           "Open [the online version](https://ionicabizau.github.io/image-tagger/).",
