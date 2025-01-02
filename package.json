@@ -1,0 +1,57 @@
+{
+  "name": "image-tagger",
+  "description": "A simple and minimal image tagger application.",
+  "version": "1.0.0",
+  "main": "tagger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "license": "MIT",
+  "blah": {
+    "description": [
+      { "h2": "How It Works" },
+      {
+        "ol": [
+          "Open [the online version](https://ionicabizau.github.io/image-tagger/).",
+          "Click the <kbd>Choose file</kbd> button and select an image.",
+          "Click the <kbd>Add Polygon</kbd>  button and draw a polygon on the image by clicking on the image.",
+          "Write a description for the polygon.",
+          "Click the <kbd>Finish</kbd> button to save the polygon.",
+          "Repeat the last two steps to add more polygons.",
+          "Click the <kbd>Download Data</kbd> button to download the HTML page."
+        ]
+      }
+    ],
+    "show_installation": false,
+    "show_docs": false,
+    "ex_img": "https://i.imgur.com/mUCyUGD.png",
+    "ex_url": "https://ionicabizau.github.io/image-tagger/"
+  },
+  "homepage": "https://github.com/IonicaBizau/image-tagger#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "index.d.ts",
+    "package-lock.json",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/image-tagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/image-tagger/issues"
+  }
+}

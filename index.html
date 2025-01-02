@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tagger</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+        #controls {
+            margin-top: 10px;
+            position: fixed;
+            z-index: 9999;
+            top: 10px;
+            left: 22px;
+        }
+        .polygon {
+            margin-bottom: 5px;
+        }
+        .tooltip {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px;
+            border-radius: 3px;
+            font-size: 12px;
+            pointer-events: none;
+            display: none;
+        }
+        div#polygonList {
+    position: fixed;
+    top: 50px;
+    left: 21px;
+    z-index: 99999;
+    height: 100px;
+    overflow: auto;
+}
+    </style>
+</head>
+<body>
+    <input type="file" id="imageInput" accept="image/*">
+    <canvas id="canvas"></canvas>
+    <div id="controls">
+        <button id="addPolygon">Add Polygon</button>
+        <button id="downloadData">Download Data</button>
+    </div>
+    <div id="polygonList"></div>
+    <div class="tooltip" id="tooltip"></div>
+    <script src="tagger.js"></script>
+    <h1>Image Tagger</h1>
+</body>
+</html>
